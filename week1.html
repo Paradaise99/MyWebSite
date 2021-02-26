@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- in the head of the code i used all the links and the title of the website-->
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <meta charset="utf-8">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <title>Week 1 P. I. Website</title>
+  </head>
+  <body>
+    <!-- This is my header in this div i have the navegation bar and the header of the web site -->
+     <div id="header">
+      <!-- This h2 is the title of the website -->
+       <h2>
+        <!-- I am using this <a> because i wanted the name of th websit to be clickable and the referencing is to the comeback to the index page -->
+         <a href="index.html">Pedro Inacio Website</a>
+       </h2>
+       <!-- This div is just for the navegation bar and all the links to the other pages are here  -->
+       <div class="navegation">
+         <nav>
+           <ul>
+         <li><a href="index.html">Home</a></li>
+               <li><a href="./week1.html">Week 1</a></li>
+               <li><a href="./week2.html">Week 2</a></li>
+               <li><a href="">Week 3</a></li>
+               <li><a href="contactme.html">Contact Me</a><li>
+           </ul>
+         </nav>
+       </div>
+     </div>
+ <!-- Here starts the banner of my website this is just a picture with the things that are going to be exposed in the page -->
+    <div id="banner">
+      <!-- I created this class because of css so i could edit the text -->
+        <div class="containertext">
+          <h3>Week 1</h3>
+          <p>Week 1 Topics: TCP/IP; DNS; Network Topology; Subnetting; Internet Protocols.</p>
+        </div>
+    </div>
+    <hr>
+    <div id="content" style="margin-right: 5%;">
+      <div class="download">
+        <a href="documents/Week1.docx" download class="button button-secondary download">Download Full Content <i class="far fa-file-word"></i></a>
+      </div>
+      <!-- The class article is the normal article with no images and it's where all the weekly content will be -->
+      <div class="article">
+        <h2>TCP/IP:</h2>
+        <p>TCP/IP, or the Transmission Control Protocol/Internet Protocol, is a suite of communication protocols used to interconnect network devices on the internet. TCP/IP can also be used as a communications protocol in a private network (an intranet or an extranet).
+TCP/IP specifies how data is exchanged over the internet by providing end-to-end communications that identify how it should be broken into packets, addressed, transmitted, routed and received at the destination. TCP/IP requires little central management, and it is designed to make networks reliable, with the ability to recover automatically from the failure of any device on the network.
+</p>
+      </div>
+      <div class="article">
+        <h2>DNS:</h2>
+        <p>Domain Name Servers (DNS) are the Internet's equivalent of a phone book. They maintain a directory of domain names and translate them to Internet Protocol (IP) addresses.
+This is necessary because, although domain names are easy for people to remember, computers or machines, access websites based on IP addresses.
+Information from all the domain name servers across the Internet are gathered together and housed at the Central Registry. Host companies and Internet Service Providers interact with the Central Registry on a regular schedule to get updated DNS information.</p>
+      </div>
+      <div class="article">
+        <h2>Network Topology:</h2>
+        <p>Network Topology is the schematic description of a network arrangement, connecting various nodes (sender and receiver) through lines of connection.</p>
+          <div class="small-article">
+            <h3>BUS:</h3>
+            <p>Bus topology is a network type in which every computer and network device is connected to single cable. When it has exactly two endpoints, then it is called Linear Bus topology.</p>
+            <p>Advantages: -It is cost effective. -Cable required is least compared to another network topology. -Used in small networks. -It is easy to understand. -Easy to expand joining two cables together.</p>
+            <p>Disadvantages: -Cables fails then whole network fails. -If network traffic is heavy or nodes are more the performance of the network decreases. -Cable has a limited length. -It is slower than the ring topology.</p>
+          </div>
+          <div class="small-article">
+            <h3>RING:</h3>
+            <p>It is called ring topology because it forms a ring as each computer is connected to another computer, with the last one connected to the first. Exactly two neighbours for each device.</p>
+            <p>Advantages: -Transmitting network is not affected by high traffic or by adding more nodes, as only the nodes having tokens can transmit data. -Cheap to install and expand.</p>
+            <p>Disadvantages: -Troubleshooting is difficult in ring topology. -Adding or deleting the computers disturbs the network activity. -Failure of one computer disturbs the whole network.</p>
+          </div>
+          <div class="small-article">
+            <h3>STAR:</h3>
+            <p>In this type of topology all the computers are connected to a single hub through a cable. This hub is the central node and all other nodes are connected to the central node.</p>
+            <p>Advantages: -Fast performance with few nodes and low network traffic. -Hub can be upgraded easily. -Easy to troubleshoot. -Easy to setup and modify. -Only that node is affected which has failed, rest of the nodes can work smoothly,</p>
+            <p>Disadvantages: -Cost of installation is high. -Expensive to use. -If the hub fails then the whole network is stopped because all the nodes depend on the hub. -Performance is based on the hub that is it depends on its capacity</p>
+          </div>
+          <div class="small-article">
+            <h3>MESH:</h3>
+            <p>Is a point-to-point connection to other nodes or devices. All the network nodes are connected to each other. Mesh has n(n-1)/2 physical channels to link n devices.</p>
+            <p>Advantages: Each connection can carry its own data load; It is robust; Fault is diagnosed easily; Provides security and privacy.</p>
+            <p>Disadvantages: Installation and configuration is difficult; Cabling cost is more; Bulk wiring is required.</p>
+          </div>
+          <div class="small-article">
+            <h3>TREE:</h3>
+            <p>It has a root node and all other nodes are connected to it forming a hierarchy. It is also called hierarchical topology. It should at least have three levels to the hierarchy.</p>
+            <p>Advantages: Extension of bus and star topologies; Expansion of nodes is possible and easy; Easily managed and maintained; Error detection is easily done.</p>
+            <p>Disadvantages: Heavily cabled; Costly; If more nodes are added maintenance is difficult; Central hub fails, network fails.</p>
+          </div>
+          <div class="small-article">
+            <h3>HYBRID:</h3>
+            <p>It is two different types of topologies which is a mixture of two or more topologies. For example, if in an office in one department ring topology is used and in another star topology is used, connecting these topologies will result in Hybrid Topology (ring topology and star topology).</p>
+            <p></p>
+          </div>
+          <div class="article">
+            <h2>Subnetting:</h2>
+            <p>Subnetting is the process of stealing bits from the HOST part of an IP address to divide the larger network into smaller sub-networks called subnets. After subnetting, we end up with NETWORK SUBNET HOST fields. We always reserve an IP address to identify the subnet and another one to identify the broadcast address within the subnet. In the following sections you will find out how all this is possible.</p>
+          </div>
+        </div>
+        <div id=video>
+        <center>
+        <video src="video/video.mp4" height="567px" width="1024px" controls="controls" ></video>
+			</center>
+        </div>
+      </div>
+      <div id="footer">
+        <p>&copy; Copyright Pedro Paraiso</p>
+        <a href="https://www.instagram.com/pedroparaiso/"><i class="fab fa-instagram fa-2x"></i></a>
+        <a href="https://www.facebook.com/pedro.paraiso.71"><i class="fab fa-facebook fa-2x"></i></a>
+        <a href="https://twitter.com/pparaiso"><i class="fab fa-twitter fa-2x"></i></a>
+      </div>
+  </body>
+</html>

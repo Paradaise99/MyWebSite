@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- in the head of the code i used all the links and the title of the website-->
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <meta charset="utf-8">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <title>Week  P. I. Website</title>
+  </head>
+  <body>
+      <!-- This is my header in this div i have the navegation bar and the header of the web site -->
+       <div id="header">
+        <!-- This h2 is the title of the website -->
+         <h2>
+          <!-- I am using this <a> because i wanted the name of th websit to be clickable and the referencing is to the comeback to the index page -->
+           <a href="index.html">Pedro Inacio Website</a>
+         </h2>
+         <!-- This div is just for the navegation bar and all the links to the other pages are here  -->
+         <div class="navegation">
+           <nav>
+             <ul>
+           <li><a href="index.html">Home</a></li>
+                 <li><a href="./week1.html">Week 1</a></li>
+                 <li><a href="./week2.html">Week 2</a></li>
+                 <li><a href="./week3.html">Week 3</a></li>
+                 <li><a href="contactme.html">Contact Me</a><li>
+             </ul>
+           </nav>
+         </div>
+       </div>
+   <!-- Here starts the banner of my website this is just a picture with the things that are going to be exposed in the page -->
+   <div id="banner">
+     <!-- I created this class because of css so i could edit the text -->
+       <div class="containertext">
+         <h3>Week 3</h3>
+         <p>Week 3 Topics: Authentication; Encryption; Data Hashing; PKI; RADIUS; TACAS; CHAP; EAP; Traffic Sniffing; FTP Bounce; Smurf Attack; IPS & IDS; Vulnerability Scanners; Capturing Methods; </p>
+       </div>
+   </div>
+   <hr>
+   <div id="content" style="margin-right: 5%;">
+     <div class="download">
+        <a href="documents/Week3.docx" download class="button button-secondary download">Download Full Content <i class="far fa-file-word"></i></a>
+      </div>
+     <!-- The class article is the normal article with no images and it's where all the weekly content will be -->
+     <div class="article">
+       <h2>Authentication:</h2>
+       <p>Process of recognizing a user’s identity. It’s a mechanic process to associate an incoming request with a set of identifying credentials. All the credentials that are provide are compared to the ones that are in a database, that have been authorized by the user, all the information on a local operating system.</p>
+     </div>
+     <div class="article">
+       <h2>Encryption:</h2>
+       <p>It’s a type of data security which involves the translation of data into a secret code. Any person can create is hone encryption language and only that person is going to be able to read what is in that file. To decrypt a file you need the key or password of that encryption language</p>
+     </div>
+     <div class="article">
+       <h2>Data Hashing:</h2>
+       <p>Hashing is a generating of values from a text using a mathematical function. Hashing is one of many types of securing files and messages. When you are sending a massage to only one person you can hashing your conversation so only you and the other user that is receiving the message are able to read want is in the message. A formula generates the hash, which makes the protection of the transmitting data. </p>
+     </div>
+     <div class="article">
+       <h2>PKI:</h2>
+       <p>PKI is a support for the distribution and identification of public encryption keys, so the users and computers can by mostly secured sending data over the network such as the internet and verify the identity of the other party. If the public services didn’t use the PKI any hacker could see the political problems, bank movements everything that is public domain and is not spouse to everyone to see it.</p>
+     </div>
+     <div class="article">
+       <h2>RADIUS:</h2>
+       <p>RADIUS is a client/server protocol. The RADIUS client is typically a NAS and the RADIUS server is usually a daemon process running on a UNIX or Windows NT machine. The client passes user information to designated RADIUS servers and acts on the response that is returned. RADIUS servers receive user connection requests, authenticate the user, and then return the configuration information necessary for the client to deliver service to the user. A RADIUS server can act as a proxy client to other RADIUS servers or other kinds of authentication servers.</p>
+     </div>
+     <div class="article">
+       <h2>TACAS:</h2>
+       <p>TACACS (Terminal Access Controller Access Control System) is an older authenticationprotocol common to UNIX networks that allows a remote access server to forward a user's logon password to an authentication serve to determine whether access can be allowed to a given system. TACACS is an encryption protocol and therefore less secure than the later TACACS+ and Remote Authentication Dial-In User Service protocols. A later version of TACACS is XTACACS (Extended TACACS). Both are described in Request for Comments 1492.</p>
+     </div>
+     <div class="article">
+       <h2>CHAP:</h2>
+       <p>CHAP (Challenge-Handshake Authentication Protocol) is a more secure procedure for connecting to a system than the Password Authentication Procedure (PAP). Here's how CHAP works: After the link is made, the server sends a challenge message to the connection requestor. The requestor responds with a value obtained by using a one-way hash function. The server checks the response by comparing it its own calculation of the expected hash value. If the values match, the authentication is acknowledged; otherwise theconnection is usually terminated.</p>
+     </div>
+     <div class="article">
+       <h2>EAP:</h2>
+       <p>The Extensible Authentication Protocol (EAP) is a protocol for wireless networks that expands on authentication methods used by the Point-to-Point Protocol (PPP), a protocol often used when connecting a computer to the Internet. EAP can support multiple authentication mechanisms, such as token cards, smart cards, certificates, one-time passwords, and public key encryption authentication.</p>
+     </div>
+     <div class="article">
+       <h2>Traffic Sniffing:</h2>
+       <p>A packet sniffer, sometimes referred to as a network monitor or network analyzer, can be used legitimately by a network or system administrator to monitor and troubleshoot network traffic. Using the information captured by the packet sniffer an administrator can identify erroneous packets and use the data to pinpoint bottlenecks and help maintain efficient network data transmission.</p>
+     </div>
+     <div class="article">
+       <h2>FTP Bounce:</h2>
+       <p>When connecting to an FTP server, the client sends a PORT command specifying the IP address and port to which the FTP server should connect and send data. An FTP Bounce attack is when an attacker sends a PORT command specifying the IP address of a third party instead of the attacker's own IP address. The FTP server then sends data to the victim machine.</p>
+     </div>
+     <div class="article">
+       <h2>Smurf Attack:</h2>
+       <p>A Smurf attack is a form of a distributed denial of service (DDoS) attack that renders computer networks inoperable. The Smurf program accomplishes this by exploiting vulnerabilities of the Internet Protocol (IP) and Internet Control Message Protocols (ICMP).</p>
+     </div>
+     <div class="article">
+       <h2>IPS & IDS:</h2>
+       <p>IDS (Intrusion Detection System) and IPS (Intrusion Prevention System) both increase the security level of networks, monitoring traffic and inspecting and scanning packets for suspicious data. Detection in both systems is mainly based on signatures already detected and recognized. The main difference between one system and the other is the action they take when an attack is detected in its initial phases (network scanning and port scanning).</p>
+     </div>
+     <div class="article">
+       <h2>Vulnerability Scanners:</h2>
+       <p>A vulnerability scan detects and classifies system weaknesses in computers, networks and communications equipment and predicts the effectiveness of countermeasures. A scan may be performed by an organization’s IT department or a security service provide, possibly as a condition imposed by some authority.  An Approved Scanning Vendor (ASV), for example, is a service provider that is certified and authorized by the Payment Card Industry (PCI) to scan payment card networks. Vulnerability scans are also used by attackers looking for points of entry.</p>
+     </div>
+     <div class="article">
+         <h2>Capturing Methods:</h2>
+         <p>-Custom Packet Capture —The firewall captures packets for all traffic or for specific traffic based on filters that you define. For example, you can configure the firewall to only capture packets to and from a specific source and destination IP address or port. You then use the packet captures for troubleshooting network-related issues or for gathering application attributes to enable you to write custom application signatures or to request an application signature from Palo Alto Networks.</p>
+        <p>-Threat Packet Capture —The firewall captures packets when it detects a virus, spyware, or vulnerability. You enable this feature in Antivirus, Anti-Spyware, and Vulnerability Protection security profiles. A link to view or export the packet captures will appear in the second column of the Threat log. These packet captures provide context around a threat to help you determine if an attack is successful or to learn more about the methods used by an attacker. You can also submit this    type of pcap to Palo Alto Networks to have a threat re-analyzed if you feel its a false-positive or false-negative.</p>
+        <p>-Application Packet Capture —The firewall captures packets based on a specific application and filters that you define. A link to view or export the packet captures will appear in the second column of the Traffic logs for traffic that matches the packet capture rule.</p>
+        <p>-Management Interface Packet Capture —The firewall captures packets on the management interface (MGT) The packet captures are useful when troubleshooting services that traverse the interface, such as firewall management authentication to external servers (LDAP and RADIUS for example), software and content updates, log forwarding, communication with SNMP servers, and authentication requests for GlobalProtect and Captive Portal.</p>
+     </div>
+   </div>
+   <div id="footer">
+     <p>&copy; Copyright Pedro Paraiso</p>
+     <a href="https://www.instagram.com/pedroparaiso/"><i class="fab fa-instagram fa-2x"></i></a>
+     <a href="https://www.facebook.com/pedro.paraiso.71"><i class="fab fa-facebook fa-2x"></i></a>
+     <a href="https://twitter.com/pparaiso"><i class="fab fa-twitter fa-2x"></i></a>
+   </div>
+  </body>
+</html>
